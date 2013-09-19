@@ -2,7 +2,7 @@ package AnyEvent::Sub::Retry;
 use 5.008005;
 use strict;
 use warnings;
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 use parent qw/Exporter/;
 use AnyEvent;
 
@@ -80,7 +80,6 @@ AnyEvent::Sub::Retry - retry $n times in AnyEvent
             } else {
                 $cv->croak("unable to connect: $!");
             }
-            return $cv;
         };
         return $cv;
     };
