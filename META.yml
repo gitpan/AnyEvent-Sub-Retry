@@ -28,7 +28,7 @@ no_index:
 provides:
   AnyEvent::Sub::Retry:
     file: lib/AnyEvent/Sub/Retry.pm
-    version: 0.03
+    version: 0.04
 requires:
   AnyEvent: 7.04
   Exporter: 5.66
@@ -37,6 +37,6 @@ resources:
   bugtracker: https://github.com/maedama/p5-AnyEvent-Sub-Retry/issues
   homepage: https://github.com/maedama/p5-AnyEvent-Sub-Retry
   repository: git://github.com/maedama/p5-AnyEvent-Sub-Retry.git
-version: 0.03
+version: 0.04
 x_contributors:
   - 'maeda-shuntaro <maeda.shuntaro@dena.jp>'
